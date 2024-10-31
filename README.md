@@ -16,18 +16,18 @@ your_project/
 
 ### 手順
 
-1. **リポジトリのクローン**
+Raspberry Pi で使用する場合は、以下のコマンドを実行してください：
 
-   ```bash
-   cd limitterlibをクローンしたいディレクトリ
-   git clone https://github.com/YoshinovLab/dk-limitterlib.git
-   ```
-
+```bash
+cd limitterlibを使用したいディレクトリ
+git clone https://github.com/YoshinovLab/dk-limitterlib.git
+cp -r dk-limitterlib/limitterlib .
+rm -rf dk-limitterlib
+```
 
 ## 使用方法
 
 [サンプルコードはこちら](test.py)を参照してください。
 
 - **LOG_DIR**: ログファイルを保存するディレクトリ。存在しない場合は自動的に作成されます。
-- **LIMIT**: 各ログファイルに記録できるエントリの最大数。標準は6です。
-
+- **LIMIT**: 各ログファイルに記録できるエントリの最大数。標準は 6 です。
