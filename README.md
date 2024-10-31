@@ -14,7 +14,7 @@ your_project/
     └── YYYYMMDD.csv
 ```
 
-### 手順
+### インストール
 
 Raspberry Pi で使用する場合は、以下のコマンドを実行してください：
 

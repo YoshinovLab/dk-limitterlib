@@ -5,6 +5,6 @@ if limiterlib.is_limited():
 else:
     # メール送信などの処理
     pass
-    
+
 limiterlib.record()
 print("新しいログエントリを記録しました。")
